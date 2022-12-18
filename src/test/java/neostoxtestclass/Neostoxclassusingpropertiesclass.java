@@ -77,7 +77,6 @@ public class Neostoxclassusingpropertiesclass extends Neobase{
 		
 		
 		@AfterMethod
-		
 		public void closingbrowser() 
 		{
 			
@@ -87,5 +86,6 @@ public class Neostoxclassusingpropertiesclass extends Neobase{
 			
 		}
 		
-	
+
+		
 }
