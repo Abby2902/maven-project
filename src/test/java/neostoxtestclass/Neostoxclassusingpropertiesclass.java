@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
-import org.testng.Reporter;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -63,7 +63,7 @@ public class Neostoxclassusingpropertiesclass extends Neobase{
 		Assert.assertEquals(home.validateuserid(), Newutility.readdatafrompropertyfile("username"),"tc is failed as results are not matching");
 			
 			Newutility.takeSceenshot(driver, home.validateuserid());
-			Reporter.log("actual and expected userid is matching tc is passed", true);
+			
 			
 	  }
 		@Test
@@ -71,7 +71,7 @@ public class Neostoxclassusingpropertiesclass extends Neobase{
 		{
 			Newutility.wait(driver,1000);
 			home.availablebalance();
-			Reporter.log("account balnce is"+home.availablebalance(), true);
+		
 			
 		}
 		
