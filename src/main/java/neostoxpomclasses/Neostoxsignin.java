@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -30,9 +30,9 @@ public Neostoxsignin(WebDriver driver)
 		
 		signin.click();
 		Newutility.wait(driver,1000);
-		Reporter.log("sending mobile Number", true);
+		
 		sendmobno.sendKeys(mno);
-		Reporter.log("clicking on signin button", true);
+		
 		signinbutton.click();
 		
 		

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser with url]]>
+    </line>
+    <line>
+      <![CDATA[TCvalidateAcbalance is completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[TCvalidateusername is completed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-19T10:26:42 IST" name="Suite" finished-at="2022-12-19T10:27:12 IST" duration-ms="30560">
+    <groups>
+    </groups>
+    <test started-at="2022-12-19T10:26:42 IST" name="Test" finished-at="2022-12-19T10:27:12 IST" duration-ms="30560">
+      <class name="neostoxtestclass.Neostoxclassusingpropertiesclass">
+        <test-method is-config="true" signature="launchneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:26:42 IST" name="launchneostox" finished-at="2022-12-19T10:26:47 IST" duration-ms="5642" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser with url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchneostox -->
+        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:26:48 IST" name="logintoneostox" finished-at="2022-12-19T10:26:59 IST" duration-ms="11851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoneostox -->
+        <test-method signature="validateAcbalance()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:26:59 IST" name="validateAcbalance" finished-at="2022-12-19T10:26:59 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TCvalidateAcbalance is completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAcbalance -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:26:59 IST" name="closingbrowser" finished-at="2022-12-19T10:27:00 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:27:00 IST" name="logintoneostox" finished-at="2022-12-19T10:27:08 IST" duration-ms="8513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoneostox -->
+        <test-method signature="validateusername()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:27:08 IST" name="validateusername" finished-at="2022-12-19T10:27:12 IST" duration-ms="4243" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TCvalidateusername is completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateusername -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@2177849e]" started-at="2022-12-19T10:27:12 IST" name="closingbrowser" finished-at="2022-12-19T10:27:12 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- neostoxtestclass.Neostoxclassusingpropertiesclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

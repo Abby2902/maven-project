@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
     <line>
       <![CDATA[reading value of urlfrom property file]]>
@@ -35,10 +35,7 @@
       <![CDATA[clicking on submit button]]>
     </line>
     <line>
-      <![CDATA[waiting for 3000milis]]>
-    </line>
-    <line>
-      <![CDATA[hanndling popup]]>
+      <![CDATA[There is no popup ]]>
     </line>
     <line>
       <![CDATA[waiting for 1000milis]]>
@@ -50,7 +47,7 @@
       <![CDATA[checking available balance]]>
     </line>
     <line>
-      <![CDATA[account balnce isRs.5,00,000.00]]>
+      <![CDATA[account balnce is]]>
     </line>
     <line>
       <![CDATA[TCvalidateAcbalance is completed successfully]]>
@@ -62,63 +59,15 @@
       <![CDATA[waiting for 1000milis]]>
     </line>
     <line>
-      <![CDATA[reading value of mobnumfrom property file]]>
-    </line>
-    <line>
-      <![CDATA[waiting for 1000milis]]>
-    </line>
-    <line>
-      <![CDATA[sending mobile Number]]>
-    </line>
-    <line>
-      <![CDATA[clicking on signin button]]>
-    </line>
-    <line>
-      <![CDATA[reading value of passwordfrom property file]]>
-    </line>
-    <line>
-      <![CDATA[waiting for 1000milis]]>
-    </line>
-    <line>
-      <![CDATA[Entering password]]>
-    </line>
-    <line>
-      <![CDATA[clicking on submit button]]>
-    </line>
-    <line>
-      <![CDATA[There is no popup ]]>
-    </line>
-    <line>
-      <![CDATA[getting actual userid]]>
-    </line>
-    <line>
-      <![CDATA[reading value of usernamefrom property file]]>
-    </line>
-    <line>
-      <![CDATA[getting actual userid]]>
-    </line>
-    <line>
-      <![CDATA[taking screenshot ]]>
-    </line>
-    <line>
-      <![CDATA[actual and expected userid is matching tc is passed]]>
-    </line>
-    <line>
-      <![CDATA[TCvalidateusername is completed successfully]]>
-    </line>
-    <line>
-      <![CDATA[logging out of application]]>
-    </line>
-    <line>
-      <![CDATA[waiting for 1000milis]]>
+      <![CDATA[TCvalidateusername is Skipped]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-02T12:33:09 IST" name="Default suite" finished-at="2022-12-02T12:33:45 IST" duration-ms="36059">
+  <suite started-at="2022-12-18T23:41:07 IST" name="Default suite" finished-at="2022-12-18T23:41:24 IST" duration-ms="17197">
     <groups>
     </groups>
-    <test started-at="2022-12-02T12:33:09 IST" name="Default test" finished-at="2022-12-02T12:33:45 IST" duration-ms="36059">
+    <test started-at="2022-12-18T23:41:07 IST" name="Default test" finished-at="2022-12-18T23:41:24 IST" duration-ms="17197">
       <class name="neostoxtestclass.Neostoxclassusingpropertiesclass">
-        <test-method is-config="true" signature="launchneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:09 IST" name="launchneostox" finished-at="2022-12-02T12:33:15 IST" duration-ms="6753" status="PASS">
+        <test-method is-config="true" signature="launchneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:07 IST" name="launchneostox" finished-at="2022-12-18T23:41:14 IST" duration-ms="6740" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value of urlfrom property file]]>
@@ -131,70 +80,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchneostox -->
-        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:16 IST" name="logintoneostox" finished-at="2022-12-02T12:33:30 IST" duration-ms="14855" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[reading value of mobnumfrom property file]]>
-            </line>
-            <line>
-              <![CDATA[waiting for 1000milis]]>
-            </line>
-            <line>
-              <![CDATA[sending mobile Number]]>
-            </line>
-            <line>
-              <![CDATA[clicking on signin button]]>
-            </line>
-            <line>
-              <![CDATA[reading value of passwordfrom property file]]>
-            </line>
-            <line>
-              <![CDATA[waiting for 1000milis]]>
-            </line>
-            <line>
-              <![CDATA[Entering password]]>
-            </line>
-            <line>
-              <![CDATA[clicking on submit button]]>
-            </line>
-            <line>
-              <![CDATA[waiting for 3000milis]]>
-            </line>
-            <line>
-              <![CDATA[hanndling popup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logintoneostox -->
-        <test-method signature="validateAcbalance()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:30 IST" name="validateAcbalance" finished-at="2022-12-02T12:33:30 IST" duration-ms="60" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[waiting for 1000milis]]>
-            </line>
-            <line>
-              <![CDATA[checking available balance]]>
-            </line>
-            <line>
-              <![CDATA[checking available balance]]>
-            </line>
-            <line>
-              <![CDATA[account balnce isRs.5,00,000.00]]>
-            </line>
-            <line>
-              <![CDATA[TCvalidateAcbalance is completed successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateAcbalance -->
-        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:30 IST" name="closingbrowser" finished-at="2022-12-02T12:33:31 IST" duration-ms="146" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[logging out of application]]>
-            </line>
-            <line>
-              <![CDATA[waiting for 1000milis]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closingbrowser -->
-        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:31 IST" name="logintoneostox" finished-at="2022-12-02T12:33:40 IST" duration-ms="9790" status="PASS">
+        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:14 IST" name="logintoneostox" finished-at="2022-12-18T23:41:22 IST" duration-ms="8480" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value of mobnumfrom property file]]>
@@ -225,29 +111,104 @@
             </line>
           </reporter-output>
         </test-method> <!-- logintoneostox -->
-        <test-method signature="validateusername()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:40 IST" name="validateusername" finished-at="2022-12-02T12:33:45 IST" duration-ms="4234" status="PASS">
+        <test-method signature="validateAcbalance()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:22 IST" name="validateAcbalance" finished-at="2022-12-18T23:41:22 IST" duration-ms="76" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[getting actual userid]]>
+              <![CDATA[waiting for 1000milis]]>
             </line>
             <line>
-              <![CDATA[reading value of usernamefrom property file]]>
+              <![CDATA[checking available balance]]>
             </line>
             <line>
-              <![CDATA[getting actual userid]]>
+              <![CDATA[checking available balance]]>
             </line>
             <line>
-              <![CDATA[taking screenshot ]]>
+              <![CDATA[account balnce is]]>
             </line>
             <line>
-              <![CDATA[actual and expected userid is matching tc is passed]]>
-            </line>
-            <line>
-              <![CDATA[TCvalidateusername is completed successfully]]>
+              <![CDATA[TCvalidateAcbalance is completed successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validateusername -->
-        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-02T12:33:45 IST" name="closingbrowser" finished-at="2022-12-02T12:33:45 IST" duration-ms="162" status="PASS">
+        </test-method> <!-- validateAcbalance -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:22 IST" name="closingbrowser" finished-at="2022-12-18T23:41:24 IST" duration-ms="1807" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6ec0377e86360a2a23acafe922d569e, findElement {using=xpath, value=//span[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ABHAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54800/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ec0377e86360a2a23acafe922d569e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6ec0377e86360a2a23acafe922d569e, findElement {using=xpath, value=//span[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ABHAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54800/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ec0377e86360a2a23acafe922d569e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.click(Unknown Source)
+at neostoxpomclasses.Neostoxhomepage.loggingout(Neostoxhomepage.java:67)
+at neostoxtestclass.Neostoxclassusingpropertiesclass.closingbrowser(Neostoxclassusingpropertiesclass.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[logging out of application]]>
@@ -255,6 +216,99 @@
             <line>
               <![CDATA[waiting for 1000milis]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+        <test-method is-config="true" signature="logintoneostox()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:24 IST" name="logintoneostox" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1671387084740" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoneostox -->
+        <test-method signature="validateusername()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:24 IST" name="validateusername" finished-at="2022-12-18T23:41:24 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6ec0377e86360a2a23acafe922d569e, findElement {using=xpath, value=//span[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ABHAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54800/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ec0377e86360a2a23acafe922d569e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6ec0377e86360a2a23acafe922d569e, findElement {using=xpath, value=//span[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ABHAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54800/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ec0377e86360a2a23acafe922d569e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.click(Unknown Source)
+at neostoxpomclasses.Neostoxhomepage.loggingout(Neostoxhomepage.java:67)
+at neostoxtestclass.Neostoxclassusingpropertiesclass.closingbrowser(Neostoxclassusingpropertiesclass.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TCvalidateusername is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateusername -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:neostoxtestclass.Neostoxclassusingpropertiesclass@66f57048]" started-at="2022-12-18T23:41:24 IST" name="closingbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1671387084756" status="SKIP">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- closingbrowser -->
       </class> <!-- neostoxtestclass.Neostoxclassusingpropertiesclass -->

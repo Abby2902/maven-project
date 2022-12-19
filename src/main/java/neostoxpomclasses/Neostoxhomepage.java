@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -35,11 +35,11 @@ Thread.sleep(3000);
 			okbutton.click();
 			Newutility.wait(driver, 3000);
 			closebutton.click();
-			Reporter.log("hanndling popup", true);
+			
 		}
 		else 
 		{
-			Reporter.log("There is no popup ", true);
+			
 		}
 		
 	}
@@ -47,12 +47,12 @@ Thread.sleep(3000);
 	public String validateuserid() throws InterruptedException {
 		Thread.sleep(1000);
 		String actual = actualuid.getText();
-		Reporter.log("getting actual userid", true);
+	
 		return actual;
 	}
 	
 	public String availablebalance() {
-		Reporter.log("checking available balance", true);
+		
 		String availablefund = avaibalance.getText();
 		return availablefund;
 		
@@ -61,7 +61,7 @@ Thread.sleep(3000);
 	
 	public void loggingout(WebDriver driver) 
 	{
-		Reporter.log("logging out of application", true);
+		
 		actualuid.click();
 		Newutility.wait(driver, 1000);
 		logout.click();
